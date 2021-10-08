@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  width: 60vw;
+  box-sizing: border-box;
+}
+
+.headernav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding-right: 16px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.herocontainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.herocard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: justified;
+  height: 315px;
+  width: 225px;
+}
+
+.heromov {
+  width: 560px;
+  height: 315px;
+}
+
+.formcontainer {
+  height: 100px;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formcontainer p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#header-img {
+  height: 50px;
+  width: 50px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  min-height: 75px;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0 20px;
+
+}
+
+#hero {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+@media screen and (max-width: 400px) {
+  #nav-bar {
+    width: 75px;
+  }
+}
