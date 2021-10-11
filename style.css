@@ -1,5 +1,19 @@
 body {
   height: 100vh;
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+a:visited {
+  color: black;
 }
 
 .wrapper {
@@ -13,8 +27,9 @@ body {
 
 .logo {
   display: flex;
-  width: 60vw;
+  width: 600px;
   box-sizing: border-box;
+  padding-left: 16px;
 }
 
 .headernav {
@@ -29,9 +44,12 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  background-color: lightgray;
 }
 
 .herocontainer {
@@ -69,23 +87,41 @@ body {
   margin-top: 0;
 }
 
+.productcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  border: solid black 2px;
+  border-radius: 9px;
+  height: 400px;
+  width: 200px;
+}
+
+.productcardname {
+  display: flex;
+  align-self: flex-start;
+  background-color: rgb(163, 163, 250);
+  border-radius: 7px 7px 0 0;
+}
+
 #header-img {
   height: 50px;
   width: 50px;
+  padding-right: 16px;
 }
 
 #header {
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   min-height: 75px;
-  max-width: 1000px;
+  min-width: 1000px;
   margin: 0;
-  padding: 0 20px;
-
+  background-color: rgb(163, 163, 250);
 }
 
 #hero {
