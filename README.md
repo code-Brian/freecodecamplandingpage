@@ -1,4 +1,7 @@
 # freecodecamplandingpage
+
+Project link: https://code-brian.github.io/freecodecamplandingpage/
+
 This is a demo landing page design for FreeCodeCamp's 'Responsive Web Design' certification.
 Build a Product Landing Page
 
